@@ -1,0 +1,36 @@
+.card{
+    /* other default style */
+    width:75% !important;
+    margin-left: 2%;
+   
+    background-color: #E23E57;
+
+    font-size: larger;
+    color:white !important;
+    border-radius: 3% !important;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    
+  }
+  .btn{
+          color: aliceblue !important;
+           margin-top: 3%;
+           
+          background-color: black;
+           
+  }
+  .b1:hover{
+    background-color: white;
+    color:black !important;
+    
+  }
+
+#result , #result1{
+  color: white !important;
+  align-items: center;
+  text-align: center;
+}
+  
+body{
+  background-color: #280B45;
+  
+}
