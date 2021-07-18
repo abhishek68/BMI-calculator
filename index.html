@@ -3,7 +3,9 @@
     <head>
         <title>BMI</title>
     </head>
-    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
@@ -18,29 +20,37 @@
        
 
        
-        <div class="cointainer-fluid col-11 ">
-        <div class="row">
+        <div class="cointainer-fluid col-12">
+          <div class="text-resposive">
+        <div class="row mx-auto">
             <div class="col-lg-6 col-12 pt-5">  
-            <div class="card">
+            <div class="card mx-auto mx-2">
                 <div class="card-body">
-                    
-                        <label for="height" class="form-label">Height</label>
-                        <input type="value" class="form-control" id="height" placeholder="Enter height in CM">
-                     
+                    <form>
+                      <div class="form-group my-4">
+                        <label class="my-1" for="email">Height</label>
+                        <input type="value" class="form-control" id="height" placeholder="Enter height"
+                            required autocomplete="off">
                       
-                        <label for="weight" class="form-label">weight</label>
-                        <input type="value" class="form-control" id="weight" placeholder="Enter weight in KGS">
+                    </div>
+                    <div class="form-group my-4">
+                        <label class="my-1" for="number">weight</label>
+                        <input type="value" class="form-control" id="weight" placeholder="Enter weight"
+                            autocomplete="off">
+                    </div>
                         <p id="result1"></p>
                         <p id="result"></p>
                         <a href="#" class="btn b1" onclick="bmi()">Calculate BMI</a>
+                      </form>
+
                 </div>
               </div>
             </div>
             <!--  -->
             <div class="col-lg-6 col-12 pt-5">
-                <div class="card">
+                <div class="card mx-auto mx-2">
                     <div class="card-body">
-                      <h5 class="card-title">BMI Categories:</h5>
+                      <h4 class="card-title">BMI Categories:</h4>
                     <ul>
                       <li>BMI is <strong> than 18.5,</strong> it falls within the underweight range.<br></li>
                       <li>BMI is <strong>18.5 to lesser 25,</strong> it falls within the healthy weight range.<br></li>
@@ -50,6 +60,7 @@
                     </div>
                   </div>
             </div>
+        </div>
         </div>
         </div>
     
