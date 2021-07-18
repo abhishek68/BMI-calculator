@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 .card{
     /* other default style */
-    width:75% !important;
-    margin-left: 2%;
+    width:100% !important;
    
-    background-color: #E23E57;
+   
+    background-color: transparent;
 
-    font-size: larger;
+    font-size :inherit;
     color:white !important;
     border-radius: 3% !important;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
@@ -13,7 +15,7 @@
   }
   .btn{
           color: aliceblue !important;
-           margin-top: 3%;
+          
            
           background-color: black;
            
@@ -31,6 +33,18 @@
 }
   
 body{
-  background-color: #280B45;
+  background-color: blue;
+  font-family: 'Roboto', sans-serif;
+ 
+  
+}
+li{
+  font-size: larger !important;
+}
+@media screen and (min-width:420px) {
+  form{
+             width:100%;
+             font-size:larger !important;
+  }
   
 }
